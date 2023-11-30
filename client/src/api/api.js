@@ -1,7 +1,7 @@
 const API_BASE_URL = "https://api.videosdk.live/v2";
 const VIDEOSDK_TOKEN = process.env.REACT_APP_VIDEOSDK_TOKEN;
 
-const FCM_SERVER_URL = "LOCAL_SERVER_URL:9000";
+const FCM_SERVER_URL = "192.168.0.249:9000";
 
 export const getToken = () => {
   return VIDEOSDK_TOKEN;
